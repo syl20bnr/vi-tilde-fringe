@@ -1,4 +1,5 @@
 # vi-tilde-fringe
+[![MELPA](http://melpa.org/packages/vi-tilde-fringe-badge.svg)](http://melpa.org/#/vi-tilde-fringe)
 
 Displays tildes in the fringe on empty lines a la Vi.
 
