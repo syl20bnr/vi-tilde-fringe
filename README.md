@@ -9,7 +9,7 @@ _Original idea from [/r/emacs][idea]_.
 
 ## Install
 
-The package _will be available soon_ in [MELPA][].
+The package is available in [MELPA][].
 
 If you have MELPA in `package-archives`, use
 
