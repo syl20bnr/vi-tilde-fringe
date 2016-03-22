@@ -79,11 +79,12 @@ empty."
   :group 'emulations
   (if vi-tilde-fringe-mode
       (progn
-        (define-fringe-bitmap 'vi-tilde-fringe-bitmap
-          vi-tilde-fringe-bitmap-array nil nil 'center)
-        (setq indicate-empty-lines t)
-        (add-to-list 'fringe-indicator-alist
-                     '(empty-line . vi-tilde-fringe-bitmap)))
+        (when (fboundp 'define-fringe-bitmap)
+          (define-fringe-bitmap 'vi-tilde-fringe-bitmap
+            vi-tilde-fringe-bitmap-array nil nil 'center)
+          (setq indicate-empty-lines t)
+          (add-to-list 'fringe-indicator-alist
+                       '(empty-line . vi-tilde-fringe-bitmap))))
     (setq indicate-empty-lines nil)))
 
 ;;;###autoload
