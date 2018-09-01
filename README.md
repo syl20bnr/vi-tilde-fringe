@@ -13,7 +13,7 @@ The package _will be available soon_ in [MELPA][].
 
 If you have MELPA in `package-archives`, use
 
-    M-x package-install RET vi-tilde-fringe-mode RET
+    M-x package-install RET vi-tilde-fringe RET
 
 If you don't, open `vi-tilde-fringe.el` in Emacs and call
 `package-install-from-buffer`.
